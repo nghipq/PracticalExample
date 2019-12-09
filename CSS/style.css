@@ -1,0 +1,12 @@
+body {
+    padding: 0 12rem;
+    background-color: rgb(87, 111, 243);
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.container {
+    padding: 0 5rem;
+    box-shadow: 3px 3px rgb(163, 161, 161);
+    background-color: #fff;
+}

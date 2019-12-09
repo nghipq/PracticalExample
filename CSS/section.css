@@ -1,0 +1,57 @@
+.section {
+    display: flex;
+    flex-flow: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.section-left {
+    width: 70%;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.section-left h1 {
+    color: rgb(50, 168, 168);
+    font-size: 2.5rem;
+    font-weight: 900;
+}
+
+.section-left h3 {
+    color: rgb(77, 168, 77);
+    font-size: 1.5rem;
+}
+
+.section-left p {
+    color: rgb(50, 168, 168);;
+}
+
+.section-right {
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.section-right p {
+    color: rgb(172, 169, 169);
+    font-size: 1rem;
+    border-bottom: 1px solid #cccccc;
+}
+
+.section-right .list {
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.section-right .list .item {
+    width: 10rem;
+}
+
+.section-right .list .item img {
+    width: 100%;
+}

@@ -1,0 +1,41 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.header {
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.header .logo {
+    padding: 1rem;
+    cursor: pointer;
+}
+
+.header .navbar {
+    width: 100%;
+    display: flex;
+    flex-flow: row;
+    align-items: center;
+}
+
+.header .navbar .nav {
+    margin-left: auto;
+}
+
+.header .navbar .nav .nav-list {
+    list-style-type: none;
+    display: flex;
+    flex-flow: row;
+    justify-content: center;
+    align-items: flex-end
+}
+
+.header .navbar .nav .nav-list .nav-item {
+    text-decoration: none;
+    padding: 1rem;
+    font-size: 1.3rem;
+    color: rgb(50, 168, 168);
+}
